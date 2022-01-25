@@ -6,7 +6,6 @@ const { Product } = require('./resolvers/Product');
 const { Mutation } = require('./resolvers/Mutation');
 const { db } = require('./db');
 
-Mutation;
 const server = new ApolloServer({
   typeDefs,
   resolvers: {
